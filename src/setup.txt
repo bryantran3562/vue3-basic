@@ -1,0 +1,8 @@
+1. Install node, issue the command:
+
+node --version
+
+2. Install vue3 cli, issue the following command:
+
+npm install -g @vue/cli
+
