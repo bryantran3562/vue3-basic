@@ -1,20 +1,19 @@
 <template>
 
-<Watcher />
+<Data />
 
 </template>
 
 <script>
 
-
-import Watcher from './components/Watcher.vue'
+import Data from './components/Data.vue'
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
+      Data,
 
   },
 

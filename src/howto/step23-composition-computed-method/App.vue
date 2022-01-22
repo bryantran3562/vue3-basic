@@ -1,20 +1,20 @@
 <template>
 
-<Watcher />
+<ComputedFunction />
 
 </template>
 
 <script>
 
 
-import Watcher from './components/Watcher.vue'
+import ComputedFunction from './components/ComputedFunction.vue'
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
+      ComputedFunction
 
   },
 

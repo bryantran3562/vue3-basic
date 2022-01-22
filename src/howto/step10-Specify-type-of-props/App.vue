@@ -1,32 +1,31 @@
 <template>
 
-<Watcher />
+
+  <Artical title="Artical 1" :likes="50" :IsPublished="true" :noColon="test" />
+
 
 </template>
 
 <script>
 
+import Artical from './components/Artical.vue'
 
-import Watcher from './components/Watcher.vue'
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
 
+    Artical,
   },
 
 
   data(){
 
     return {
-
+      test: "Testing no colon"
     }
-  },
-  methods: {
-
   }
 
   

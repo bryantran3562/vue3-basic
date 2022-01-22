@@ -1,20 +1,21 @@
 <template>
 
-<Watcher />
+
+<ToRef />
 
 </template>
 
 <script>
 
 
-import Watcher from './components/Watcher.vue'
+import ToRef from './components/ToRef.vue'
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
+      ToRef
 
   },
 

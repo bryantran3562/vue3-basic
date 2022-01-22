@@ -6,3 +6,13 @@ node --version
 
 npm install -g @vue/cli
 
+vue --version <==Check your vue version
+
+vue create your_project
+
+3. Install - ventur package into the VS code by click on the extension icon on the left screen.
+
+4. npm run serve <==Run your server.
+
+Type: vbase-css to create a vue file code snippet.
+

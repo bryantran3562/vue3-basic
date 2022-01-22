@@ -1,20 +1,21 @@
 <template>
 
-<Watcher />
+
+<Methods />
 
 </template>
 
 <script>
 
 
-import Watcher from './components/Watcher.vue'
+import Methods from './components/Methods.vue'
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
+      Methods
 
   },
 

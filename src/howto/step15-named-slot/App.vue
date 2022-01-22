@@ -1,21 +1,26 @@
 <template>
-
-<Watcher />
+  <!-- BT - All you have to do is name it according to the slot name in the child component -->
+  <Card>
+    <template v-slot:header>This is data for header</template>
+    <template v-slot:default>
+      <img src="https://picsum.photos/200" alt="">
+    </template>    
+    <template v-slot:footer>This is data for header</template>    
+  </Card>
 
 </template>
 
 <script>
 
+import Card from './components/Card.vue'
 
-import Watcher from './components/Watcher.vue'
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
-
+      Card,
   },
 
 

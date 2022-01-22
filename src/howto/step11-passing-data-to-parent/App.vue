@@ -1,32 +1,33 @@
 <template>
 
-<Watcher />
+<h2>This is Parent component</h2>
+<button @click="showPopup = true">Show child component</button>
+
+  <!--BT Step 3: Listen and event name: @closeme -->
+  <Popup v-show="showPopup" @closeme="showPopup = false" />
 
 </template>
 
 <script>
 
+import Popup from './components/Popup.vue'
 
-import Watcher from './components/Watcher.vue'
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
 
+    Popup,
   },
 
 
   data(){
 
     return {
-
+      showPopup: false
     }
-  },
-  methods: {
-
   }
 
   

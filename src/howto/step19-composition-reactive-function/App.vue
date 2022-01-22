@@ -1,20 +1,19 @@
 <template>
 
-<Watcher />
+<ReactiveMethod />
 
 </template>
 
 <script>
 
-
-import Watcher from './components/Watcher.vue'
+import ReactiveMethod from './components/ReactiveMethod.vue'
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
+      ReactiveMethod,
 
   },
 

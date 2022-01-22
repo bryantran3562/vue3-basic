@@ -1,20 +1,27 @@
 <template>
 
-<Watcher />
+<PostList />
+<CreateList />
 
 </template>
 
 <script>
 
+//BT - Notes:  issue the command: npm add axios - to install the http get post supported.
+//jsonplaceholder.typicode.com is a site for testing api json.
 
-import Watcher from './components/Watcher.vue'
+import PostList from './components/PostList.vue'
+import CreateList from './components/CreateList.vue'
+
 export default {
 
   name: 'App',
 
   //BT - Then register your component here using the name: Greet
   components:{
-      Watcher
+
+    PostList,
+    CreateList
 
   },
 
